@@ -6,8 +6,8 @@ close all;
 
 L = 1000; %length of signal
 Ts = 1/50;
-%t = (0:1:L-1)*Ts;
-t = (-L/2:1:L/2-1)*Ts;
+t = (0:1:L-1)*Ts;
+%t = (-L/2:1:L/2-1)*Ts;
 f1 = 20; %  MhZ FREQUENCY
 f2 = 15; 
 
