@@ -7,7 +7,7 @@ clear;
 
 qamSymbols = [1+1i;1-1i;-1+1i;-1-1i];
 numSymbols = 1000;
-snrdB = 5;
+snrdB = 4;
 
 txSignal = qamSymbols(randi(size(qamSymbols'),numSymbols,1));
 scatterplot(txSignal)
